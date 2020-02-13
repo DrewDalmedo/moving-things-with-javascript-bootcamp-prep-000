@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
 var dodger = document.getElementById('dodger')
-var speed = 5;
+var speed = 1;
 
 function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '')
